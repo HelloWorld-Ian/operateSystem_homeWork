@@ -4,7 +4,7 @@
 ### 内容介绍
    &emsp;&emsp;操作系统课设作业，实现了一个抢占式优先权调度算法的进程调度的程序演示，并且实现在可变
 分区管理方式下，采用首次适应算法实现主存空间的分配和回收。<br>
-    &emsp;&emsp;（1）设置PCB管理进程：PCB 内容包括：进程名/PID；要求运行时间（单位时间）；优先权；状态；进
+   &emsp;&emsp;（1）设置PCB管理进程：PCB 内容包括：进程名/PID；要求运行时间（单位时间）；优先权；状态；进
 程属性：独立进程、同步进程（前趋、后继）。<br>
    &emsp;&emsp; （2）可以随机输入若干进程，可随时添加进程，并按优先权排序；<br>
    &emsp;&emsp; （3）从就绪队首选进程运行：优先权-1；要求运行时间-1；要求运行时间为 0 时，
@@ -16,27 +16,6 @@
 进入。被挂起进程入挂起队列，设置解挂功能用于将制定挂起进程解挂入就绪队列。
 
 ### 可视化实现
-   程序的可视化实现主要使用了vue3框架，用element-ui设计界面，辅以apexchart实现队列可视化
+   &emsp;&emsp; 程序的可视化实现主要使用了vue3框架，用element-ui设计界面，辅以apexchart实现队列可视化
 
-## Project setup
-```
-yarn install
-```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
